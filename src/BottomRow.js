@@ -15,7 +15,7 @@ const BottomRow = () => {
   const [lastPlay, setLastPlay] = useState('');
 
   function moveTheSticks() {
-    let yardage = Math.floor(Math.random() * 10);
+    let yardage = Math.floor(Math.random() * 11) - 5;
 
     if(curDown === 4 && yardage < ballToGo){
       
